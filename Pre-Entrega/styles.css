@@ -1,0 +1,18 @@
+/* paleta de colores: 
+- #F1D19C Sunset
+- #FD9839 Princeton Orange
+- #E95900 Persimmon
+- #DE1515 Rojo
+- #FDBC39 Goldenrod
+- #122032 Oxford Blue */
+
+@font-face {
+    font-family: 'HeavyHeap';
+    src: url(./assets/fonts/HeavyHeap/heavyheap.ttf) format('truetype');
+}
+
+body {
+    background-color: #122032;
+    margin: 0;
+    padding: 0;
+}
