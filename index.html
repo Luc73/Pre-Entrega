@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pre-Entrega</title>
+    <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+    <header>
+        <h1>Wheels on Sky</h1>
+        <nav class="menu-nav"> 
+            <!-- Menú de navegación para que el usuario pueda desplazarse rápido. -->
+            <!-- (productos debería llevarte a otro archivo html donde podría ver más productos, no me alcanzo el tiempo) -->
+            <ul>
+                <li><a href="./index.html">Inicio</a></li>
+                <li><a href="Productos">Productos</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Sección de Bienvenida + Productos + Formulario-->
+        <section class="cartelera-presentacion">
+            <h2>Bienvenido a Wheels on Sky</h2>
+            <p>En Wheels on sky, ofrecemos productos de Hotwheels propios de MATTEL</p>
+        </section>
+
+        <section class="cartelera-productos">
+            <h2>Productos Populares</h2>
+            <div class="productos-populares">
+                <div>
+                    <img src="./assets/images/HotWheels Bricks/AcuraNSX-1.avif" alt="Producto-1">
+                    <h3>Acura NSX Brick</h3>
+                    <p>Una Edición del Acura NSX para armar con bloques</p>
+                    <p>Precio: $2,799</p>
+                </div>
+                <div>
+                    <img src="./assets/images/Conjuntos/ConjuntoSurtido20HotWheelsDeCars-1.avif" alt="Producto 2">
+                    <h3>Conjunto surtido de 20</h3>
+                    <p>Un Conjunto de Edición de Cars con más de 20 autos</p>
+                    <p>Precio: $3,999</p>
+                </div>
+                <div>
+                    <img src="./assets/images/Conjuntos/Conjunto6HotWheels-1.avif" alt="Producto 3">
+                    <h3>Conjunto de 6</h3>
+                    <p>Un conjunto de 6 autos japoneses</p>
+                    <p>Precio: $1,299</p>
+                </div>
+        </section>
+
+        <section class="cartelera-contacto">
+            <h2>Contáctanos</h2> <!-- Formulario de contacto -->
+            <form action="https://formspree.io/f/xyzjzqgn" method="POST">
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" name="nombre" required>
+
+                <label for="email">Correo Electrónico:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="calificación">Dejanos una calificación:</label>
+                <select id="calificación" name="calificación" required>
+                    <option value="1">1 - Muy malo</option>
+                    <option value="2">2 - Malo</option>
+                    <option value="3">3 - Nada mal</option>
+                    <option value="4">4 - Copado</option>
+                    <option value="5">5 - Magnifico</option>
+                </select>
+                <!-- +calificación al enviar un mensaje -->
+
+                <label for="mensaje">Mensaje:</label>
+                <textarea id="mensaje" name="mensaje" rows="2" cols="50" required></textarea>
+
+                <button type="submit">Enviar</button>
+            </form>
+
+            <p>Si tienes alguna pregunta o comentario, no dudes en contactarnos.</p>
+            <p>También puedes seguirnos en nuestras redes sociales y contactarte con nosotros.</p>
+            <ul class="redes-sociales"> <!-- Enlaces de ejemplo, no funcionales-->
+                <li><a href="https://www.instagram.com/WheelsOnSky" target="_blank">Instagram</a></li>
+                <li><a href="https://www.twitter.com/WheelsOnSky" target="_blank">Twitter</a></li>
+            </ul>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Wheels on Sky. Todos los derechos reservados.</p>
+        <p>Desarrollado por Luciano De La Fuente</p>
+    </footer>
+</body>
+</html>
