@@ -83,3 +83,38 @@ main p{
     font-size: 28px;
     color: #E95900;
 }
+
+@media screen and (max-width:1200px) {
+    .productos-populares img {
+        width: 250px;
+        height: 250px;
+    }
+
+    .productos-populares h3 {
+        font-size: 24px;
+    }
+
+
+}
+
+@media screen and (max-width:800px) {
+    .productos-populares img {
+        width: 200px;
+        height: 200px;
+    }
+    
+    .productos-populares h3 {
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width:600px) {
+    .productos-populares img {
+        width: 150px;
+        height: 150px;
+    }
+    
+    .productos-populares h3 {
+        font-size: 16px;
+    }
+}
